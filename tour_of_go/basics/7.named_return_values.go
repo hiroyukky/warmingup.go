@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func split(sum int) (x, y int) {
 	x = sum * 4 / 9
@@ -11,6 +9,5 @@ func split(sum int) (x, y int) {
 }
 
 func main() {
-	a, b := split(17)
-	fmt.Printf("a: %d, b: %d\n", a, b)
+	fmt.Println(split(17))
 }
